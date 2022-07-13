@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
     <title>Mahasiswa</title>
 </head>
 <body>
@@ -13,8 +14,9 @@
                 <h3>Daftar Mahasiswa CI Sederhana</h3>
 
                 <ul class="list-group">
-                    <li class="list-group-item">Nama Satu</li>
-                    <li class="list-group-item">Nama Dua</li>
+                    <?php foreach ($perpustakaan as $mhs) : ?>
+                    <li class="list-group-item"><?php echo $mhs ['judul_buku']; ?></li>
+                    <?php endforeach ?>
                 </ul>
             </div>
         </div>
