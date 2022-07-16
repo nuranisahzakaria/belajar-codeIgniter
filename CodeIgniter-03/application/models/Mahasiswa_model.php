@@ -1,8 +1,9 @@
 <?php
 class Mahasiswa_model extends CI_Model{
-    public function get_data()
+    public function getAllMahasiswa()
         {
-            return $this->db->get('mahasiswa')->result_array();
+            $query = $this->db->get('mahasiswa')->result_array();
+            return $query->result_array();
         }
 }
 ?>
