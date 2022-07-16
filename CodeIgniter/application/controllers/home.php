@@ -7,7 +7,7 @@
             //$this->load->view('view_mahasiswa', $data);
 
             $this->load->view ('templates/header');
-            $this->load->view ('mahasiswa/data_mahasiswa', $data);
+            $this->load->view ('mahasiswa/tentang_kami', $data);
             $this->load->view ('templates/footer');
         }
     }
