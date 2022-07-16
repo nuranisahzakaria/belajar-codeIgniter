@@ -6,7 +6,7 @@
         }
 
         public function index (){
-            $data['mahasiswa']=$this->mahasiswa_model->getAllMahasiswa();
+            $data['mahasiswa']=$this->mahasiswa_model->get_data();
 
             $this->load->view ('templates/header');
             $this->load->view ('mahasiswa/index', $data);
