@@ -23,7 +23,7 @@
           <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Data Mahasiswa</a>
+          <a class="nav-link" href="">Data Mahasiswa</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Tentang Kami</a>
